@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://getbootstrap.com.br/docs/4.1/examples/carousel/ -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./img/logo_do_tcc_3.jpeg">
+    
+
+    <!-- ESTILOS DE TEXTO PARA DARKMODE 
+    Uma classe CSS darkmode--activated é adicionada à tag body quando o darkmode é ativado. Você pode aproveitá-la para substituir o estilo e ter um estilo personalizado.
+    Use a classe darkmode-ignore onde você não quer aplicar o darkmode.
+    Você também pode adicionar este parametro: isolation: isolate; no seu CSS, isso também ignorará o darkmode.
+    Também é possível reverter o Modo Escuro com este parametro mix-blend-mode: difference;
+    --> 
+
+    <style>
+    .darkmode--activated p, .darkmode--activated li, .darkmode--activated h1, .darkmode--activated h2 {
+      color: #35eeff;
+    }
+    .button {   
+      isolation: isolate;
+    }
+    .darkmode--activated .logo {
+      mix-blend-mode: difference;
+    }
+    </style>
+
+    <title>SearchTech - Busca Confiável</title>
+
+    <!-- Principal CSS desta página -->
+    <link href="./assets/css/index/index.css" rel="stylesheet">
+
+    <!-- Estilos customizados para essa página -->
+    <link href="./assets/css/produtos/card.css" rel="stylesheet">
+  </head>
+
+  <!--Inicio do corpo da página // Cada seção estará devidamente comentada, facilitando a manutenção de funções dentro do layout da página-->
+  <body>
+
+    <!-- Início do menu cabeçalho
+    Funções: (da esquerda para a direita)
+    Apresentação da Logo, Página Inicio, Página de Login, Página de Cadastro Botão de busca, Botão de login, Botão de cadastro
+    -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        
+        <a class="navbar-brand" href="#"> <img src="./img/logo_do_tcc_3.jpeg" width="50px" height="auto"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" 
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Inicio <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Login</a>
+            </li>
+          </ul>
+
+          <!-- Botão de busca 
+           *Necessário adicionar parâmetros "action" e "method" com PHP para que a busca funcione corretamente
+          -->
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Digite aqui..." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <!--Inicio do conteúdo principal da página-->
+    <main role="main">
+      <!-- INICIO DA SELECÇÃO DE CATEGORIA DOS PRODUTOS -->
+      <
+      <!-- Envolve o resto da página em outro container, para centralizar todo o conteúdo. -->
+      <div class="row">
+        <div class="container">
+        <table class="container">
+          <tr>
+            <td>
+              <div class="card">
+              <div class="header"><h1>Teste</div>
+              <div class="info">
+                <p class="title">How to make this material card ?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi. </p>
+              </div>
+                <div class="footer">
+                  <p class="tag">#HTML #CSS </p>
+                  <button type="button" class="action">Get started </button>
+                  
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="card">
+                <div class="header"><h1>Teste</div>
+                <div class="info">
+                  <p class="title">How to make this material card ?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi. </p>
+                </div>
+                  <div class="footer">
+                    <p class="tag">#HTML #CSS </p>
+                    <button type="button" class="action">Get started </button>
+                  </div>
+                </div>
+            </td>
+            <td>
+              <div class="card">
+                <div class="header"><h1>Teste</div>
+                <div class="info">
+                  <p class="title">How to make this material card ?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi. </p>
+                </div>
+                  <div class="footer">
+                    <p class="tag">#HTML #CSS </p>
+                    <button type="button" class="action">Get started </button>
+                  </div>
+                </div>
+            </td>
+          </tr>
+
+          <hr class="featurette-divider">
+
+          <tr>
+            <td>
+              <div class="card">
+                <div class="header"><h1>Teste</div>
+                <div class="info">
+                  <p class="title">How to make this material card ?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi. </p>
+                </div>
+                  <div class="footer">
+                    <p class="tag">#HTML #CSS </p>
+                    <button type="button" class="action">Get started </button>
+                  </div>
+                </div>
+            </td>
+            <td>
+              <div class="card">
+                <div class="header"><h1>Teste</div>
+                <div class="info">
+                  <p class="title">How to make this material card ?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi. </p>
+                </div>
+                  <div class="footer">
+                    <p class="tag">#HTML #CSS </p>
+                    <button type="button" class="action">Get started </button>
+                  </div>
+                </div>
+            </td>
+            <td>
+              <div class="card">
+                <div class="header"><h1>Teste</div>
+                <div class="info">
+                  <p class="title">How to make this material card ?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi. </p>
+                </div>
+                  <div class="footer">
+                    <p class="tag">#HTML #CSS </p>
+                    <button type="button" class="action">Get started </button>
+                  </div>
+                </div>
+            </td>
+          </tr>
+          
+          <hr class="featurette-divider">
+
+          <tr>
+            <td>
+              <div class="card">
+                <div class="header"><h1>Teste</div>
+                <div class="info">
+                  <p class="title">How to make this material card ?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi. </p>
+                </div>
+                  <div class="footer">
+                    <p class="tag">#HTML #CSS </p>
+                    <button type="button" class="action">Get started </button>
+                  </div>
+                </div>
+            </td>
+            <td>
+              <div class="card">
+                <div class="header"><h1>Teste</div>
+                <div class="info">
+                  <p class="title">How to make this material card ?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi. </p>
+                </div>
+                  <div class="footer">
+                    <p class="tag">#HTML #CSS </p>
+                    <button type="button" class="action">Get started </button>
+                  </div>
+                </div>
+            </td>
+            <td>
+              <div class="card">
+                <div class="header"><h1>Teste</div>
+                <div class="info">
+                  <p class="title">How to make this material card ?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi. </p>
+                </div>
+                  <div class="footer">
+                    <p class="tag">#HTML #CSS </p>
+                    <button type="button" class="action">Get started </button>
+                  </div>
+                </div>
+            </td>
+          </tr>
+          </table>
+      </div>
+      </div>
+      <!-- FOOTER -->
+
+      <hr class="featurette-divider">
+      <footer class="container">
+        <p class="float-right"><a href="#">Voltar ao topo</a></p>
+        <p>© SearchTech — Busca Confiável, 2024 · <a href="#inserir-enderecamento">Quem Somos</a> · <a href="#inserir-enderecamento"> Políticas de Privacidade e Termos de Uso</a></p>
+      </footer>
+    </main>
+      <!-- FIM DO FOOTER -->
+
+
+
+
+
+
+      
+
+    <!-- SESSÃO DE INICIALIZAÇÃO DE SCRIPTS PARA INICIALIZAÇÃO DO BOOTSTRAP/JAVASCRIPT 
+    ** MANTER INALTERADOS OS SCRIPTS ABAIXO
+    -->
+
+    <!-- Principal JavaScript do Bootstrap
+    ================================================== -->
+    <!-- Foi colocado no final para a página carregar mais rápido -->
+    <script src="./assets/js/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/holder.min.js"></script>
+    <script src="./assets/js/modo-noturno.js"></script>
+    <script>
+      
+
+      const options = {
+        bottom: '32px', // default: '32px'
+        right: '32px', // default: '32px'
+        left: 'unset', // default: 'unset'
+        time: '0.3s', // default: '0.3s'
+        mixColor: '#fff', // default: '#fff'
+        //backgroundColor: '#fff',  // default: '#fff'
+        buttonColorDark: '#100f2c',  // default: '#100f2c'
+        buttonColorLight: '#fff', // default: '#fff'
+        saveInCookies: false, // default: true,
+        label: '🌓', // default: ''
+        autoMatchOsTheme: false // default: true
+      }
+      const darkmode = new Darkmode(options);
+      
+      function addDarkmodeWidget() {
+         darkmode.showWidget();
+      }
+      window.addEventListener('load', addDarkmodeWidget);
+      
+    </script>
+
+    
+
+
+    <!-- FIM DO CONTEÚDO DA PÁGINA -->
+</body>
+</html>
+
+<!-- CONSIDERAÇÕES FINAIS E NOTAS IMPORTANTES:
+
+  -------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------- LAYOUT 2.0 : SEARCH TECH - BUSCA CONFIÁVEL ----------------------------------------
+  -------------------------------------------------------------------------------------------------------------------------
+  -------------------------------------------------------------------------------------------------------------------------
+  Página criada em 25/06/2024
+  - Criada por Agustin Sebastian Acosta Silveira
+  - Atualizado 28/06/2024 por Agustin Sebastian Acosta Silveira (atualizar sempre que houver alteração)
+
+  -Descrição (atualizar sempre que houver alteração):
+  Página de Início (index)
+  -> Menu superior simples com duas opções de páginas, uma barra de pesquisa e um botão para efetuar a pesquisa.
+  -> Menu carrossel (carousel) com 3 imagens de fundo / Arquivo CSS mantido separadamente.
+  -> Apresentação de três segmentos disponíveis para o usuário (Componentes, Periféricos e Acessórios) selecionar.
+  -> "Miniblog" apresentando "Novidades do momento". (temporário)
+  -> Rodapé da página com links de "Quem Somos", "Privacidade e Termos de Uso" e botão para voltar ao topo da página.
+  -> Botão para alternar entre modo noturno e modo claro.
+  
+  - A página é dividida através de comentários ao decorrer do código que delimitam os blocos de cada item,
+  facilitando a leitura e manutenção das funções disponíveis na página por todos.
+
+  -------------------------------------------------------------------------------------------------------------------------
+  - ESTILIZAÇÕES EM CSS:
+
+  -- PARA ALTERAÇÕES VISUAIS SOMENTE NO MENU CARROSSEL -> assets/css/index/carousel.css
+
+  -- PARA ALTERAÇÕES VISUAIS NO RESTANTE DO LAYOUT -> assets/css/index/layout.css
+
+  -- PARA INSERÇÃO DE IMAGENS -> CTRL + F (BUSCAR TAG <img> )
+
+  -- PARA ALTERAÇÕES DE PARÂMETROS CSS
+    - BUSCAR A CLASSE RESPECTIVA DA TAG DO CAMPO A SER EDITADO NO ARQUIVO .CSS (CTRL+F / .nome-da-classe) 
+    OU
+    - INSPECIONAR ELEMENTO NO CASO DE NAVEGADOR, A INSPEÇÃO DE ELEMENTO DIRÁ O NOME DA CLASSE QUE DEVE SER ALTERADA.
+  -------------------------------------------------------------------------------------------------------------------------
+
+  -------------------------------------------------------------------------------------------------------------------------
+
+  INFORMAÇÕES GERAIS SOBRE O PROJETO:
+  
+  TRABALHO DE CONCLUSÃO DE CURSO - ETEC Profº Adhemar Batista Heméritas - São Paulo
+  CURSO: DESENVOLVIMENTO DE SISTEMAS (DS)
+  NOME DO PROJETO: SEARCHTECH - BUSCA CONFIÁVEL
+  PROPÓSITO: CATÁLOGO WEB PARA REDIRECIONAR A LINKS SEGUROS DE COMPRA
+  DIFERENCIAIS:
+  - FOCO EM ACESSIBILIDADE PARA PESSOAS QUE POSSUAM ALGUM TIPO DE DEFICIENCIA EM QUALQUER GRAU;
+  - FOCO EM SEGURANÇA DIGITAL, EM CONFORME COM O CUMPRIMENTO DA LEI Nº 13.709, DE 14 DE AGOSTO DE 2018
+  (TAMBÉM CONHECIDA POPULARMENTE COMO "LEI GERAL DE PROTEÇÃO DE DADOS", ABREVIATURA "LGPD");
+  - APLICAÇÃO DE CONCEITOS APRENDIDOS EM SALA DE AULA, ABRANGENDO TODOS OS PRINCIPAIS ESPECTROS DO
+  DESENVOLVIMENTO PARA WEB (FRONT-END, BACK-END, BANCO DE DADOS, ETC);
+
+  INTEGRANTES DO PROJETO (por ordem alfabética):
+  - Agustin Sebastian Acosta Silveira
+  - André Luis Oliveira da Silva
+  - Bruno Marques Cardoso
+  - Gabriel Santos Carvalho
+  -------------------------------------------------------------------------------------------------------------------------
+-->
